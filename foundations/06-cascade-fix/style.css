@@ -2,22 +2,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Rule that makes the top two paragraphs black and bold
+something is overwriting .small-para color*/
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: 900;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
 .para {
-  font-size: 22px;
+  font-size: 24px;
 }
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +31,7 @@ body {
   font-size: 20px;
 }
 
-.child {
+div.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
